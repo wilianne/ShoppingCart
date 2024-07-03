@@ -4,62 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <h1>Unit shop</h1>
+    <div class="container">
+
     
-    <table>
-        <thead>
-            <tr>
-                <th>Image</th>
-                <th>Product</th>
-                <th>Unit price</th>
-                <th>Quantity</th>
-                <th>Total</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="img/product_1.jpeg" alt="S23 sansung" width="200"height="200"></td>
-                <td>
-                    <div>Top cell phone</div>
-                    <div>Code: 12345</div>
-                    <div>Color: Black</div>
-                </td>
-                <td>2519 $</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
+            <h1><i id="cifrao" class="bi bi-coin"></i> Unit shop</h1>
+            
+            <table class="table table-hover table-border table-primary">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Product</th>
+                        <th>Unit price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/product_1.jpeg" alt="S23 sansung" width="200"height="200"></td>
+                        <td>
+                            <div>Top cell phone</div>
+                            <div><span class="produto-item">Code:</span> 12345</div>
+                            <div><span class="produto-item">Color:</span> Gray</div>
+                        </td>
+                        <td>2519 $</td>
+                        <td>
+                            <span class="badge bg-danger"><i class="bi bi-arrow-down"></i></span>
+                            0
+                            <span class="badge bg-success"><i class="bi bi-arrow-up"></i></span>
+                        </td>
+                        <td>0</td>
+                    </tr>
 
-            <tr>
-                <td><img src="img/product_2.jpeg" alt="Notebook sansung" width="200"height="200"></td>
-                <td>
-                    <div>Top Notebook</div>
-                    <div>Code: 67891</div>
-                    <div>Color: Gray</div>
-                </td>
-                <td>3700 $</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
+                    <tr>
+                        <td><img src="img/product_2.jpeg" alt="Notebook sansung" width="200"height="200"></td>
+                        <td>
+                            <div>Top Notebook</div>
+                            <div><span class="produto-item">Code:</span> 67891</div>
+                            <div><span class="produto-item">Color:</span> Gray</div>
+                        </td>
+                        <td>3700 $</td>
+                        <td>
+                            <span class="badge bg-danger"><i class="bi bi-arrow-down"></i></span>
+                            0
+                            <span class="badge bg-success"><i class="bi bi-arrow-up"></i></span>
+                        </td>
+                        <td>0</td>
+                    </tr>
 
-            <tr>
-                <td><img src="img/product_3.jpeg" alt="Tv sansung" width="200"height="200"></td>
-                <td>
-                    <div>Top TV</div>
-                    <div>Code: 10111</div>
-                    <div>Color: Black</div>
-                </td>
-                <td>4600 $</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
-        </tbody>
-        
-    </table>
+                    <tr>
+                        <td><img src="img/product_3.jpeg" alt="Tv sansung" width="200"height="200"></td>
+                        <td>
+                            <div>Top TV</div>
+                            <div><span class="produto-item">Code:</span> 11225</div>
+                            <div><span class="produto-item">Color:</span> Black</div>
+                        </td>
+                        <td>4600 $</td>
+                        <td>
+                            <span class="badge bg-danger"><i class="bi bi-arrow-down"></i></span>
+                            0
+                            <span class="badge bg-success"><i class="bi bi-arrow-up"></i></span>
+                        </td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+                
+            </table>
 
-    <footer>
-        <span>Subtotal: 0 $ </span>
-    </footer>
+            <footer class="text-center">
+                <span><i class="bi bi-cart3"></i> Subtotal: 0 $ </span>
+            </footer>
+    </div>
 </body>
 </html>

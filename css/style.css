@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    border: rgb(82, 156, 240) dashed 5px;
+    margin: 30px 0px;
+    padding: 30px 30px;
+    text-align: center;
+}
+#cifrao{
+    color: green;
+}
+footer{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+.produto-item{
+    color: blue;
+    font: bold;
+}
