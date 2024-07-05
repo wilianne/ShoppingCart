@@ -35,11 +35,11 @@
                             <div><span class="produto-item">Code:</span> 12345</div>
                             <div><span class="produto-item">Color:</span> Gray</div>
                         </td>
-                        <td id="value_1">2519</td>
+                        <td id="value_1">R$ 2.519</td>
                         <td>
-                            <span class="badge bg-danger" onclick="Remove(1)"><i class="bi bi-arrow-down"></i></span>
+                            <span class="badge bg-danger" onclick="changeQuantity(1,'-')"><i class="bi bi-arrow-down"></i></span>
                             <span id="qtd_1">0</span>
-                            <span class="badge bg-success" onclick="Add(1);"><i class="bi bi-arrow-up"></i></span>
+                            <span class="badge bg-success" onclick="changeQuantity(1,'+');"><i class="bi bi-arrow-up"></i></span>
                         </td>
                         <td id="total_1">0</td>
                     </tr>
@@ -51,11 +51,11 @@
                             <div><span class="produto-item">Code:</span> 67891</div>
                             <div><span class="produto-item">Color:</span> Gray</div>
                         </td>
-                        <td id="value_2">3700</td>
+                        <td id="value_2">R$ 3.700</td>
                         <td>
-                            <span class="badge bg-danger" onclick="Remove(2)"><i class="bi bi-arrow-down"></i></span>
+                            <span class="badge bg-danger" onclick="changeQuantity(2,'-')"><i class="bi bi-arrow-down"></i></span>
                             <span id="qtd_2">0</span>
-                            <span class="badge bg-success" onclick="Add(2);"><i class="bi bi-arrow-up"></i></span>
+                            <span class="badge bg-success" onclick="changeQuantity(2,'+');"><i class="bi bi-arrow-up"></i></span>
                         </td>
                         <td id="total_2">0</td>
                     </tr>
@@ -67,11 +67,11 @@
                             <div><span class="produto-item">Code:</span> 11225</div>
                             <div><span class="produto-item">Color:</span> Black</div>
                         </td>
-                        <td id="value_3">4600</td>
+                        <td id="value_3">R$ 4.600</td>
                         <td>
-                            <span class="badge bg-danger" onclick="Remove(3)"><i class="bi bi-arrow-down"></i></span>
+                            <span class="badge bg-danger" onclick="changeQuantity(3,'-')"><i class="bi bi-arrow-down"></i></span>
                             <span id="qtd_3">0</span>
-                            <span class="badge bg-success" onclick="Add(3);"><i class="bi bi-arrow-up"></i></span>
+                            <span class="badge bg-success" onclick="changeQuantity(3,'+');"><i class="bi bi-arrow-up"></i></span>
                         </td>
                         <td id="total_3">0</td>
                     </tr>
@@ -80,7 +80,7 @@
             </table>
 
             <footer class="text-center">
-                <span><i class="bi bi-cart3"></i> Subtotal: 0 $ </span>
+                <span><i class="bi bi-cart3"></i> Subtotal: <span id="subtotal">0</span></span>
             </footer>
     </div>
 </body>
